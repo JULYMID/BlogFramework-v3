@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="utf-8"> 
+<script type="text/javascript">
+  function TxtToChange() {
+    var url = document.getElementById("_url").value;
+    switch (url) {
+      case "article/src/xinjing.zip":
+        document.getElementById("txt").value = url;
+        // "article/src/xinjing.zip" = url;
+        break;
+      case "http://www.sosoapi.com/":
+        document.getElementById("txt").value = url;
+        break;
+      case "https://www.csdn.net/":
+        document.getElementById("txt").value = url;
+        break;
+    }
+  }
+
+  function GoToUrl() {
+    location = document.getElementById("txt").value;
+  }
+</script>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>个人博客</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body background=transparent;>
+  <header>
+    <h1>个人博客</h1>
+    <nav>
+      <ul>
+        <li><a href="#">首页</a></li>
+        <li><a href="#">文章</a></li>
+        <li><a href="#">关于</a></li>
+        <li>
+          <form>
+            <select id="_url" onchange="TxtToChange()">
+
+              <option value="article/src/xinjing.zip">心经分类</option>
+              </option>
+              <option value="article/src/xinjing.zip">sosoApi</option>
+              <option value="article/src/xinjing.zip"">CSDN</option>
+          </select>
+  
+          <input type="hidden" id="txt" />
+              <input id="button01" type="button" value="确认跳转" onclick="GoToUrl()">
+          </form>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+
+
+
+    <section class="featured-post">
+      <article>
+        <h2>kun++的优势</h2>
+        <a href="article/1first/word.html">
+          <div>
+            <h3>关于c++的使用</h3>
+          </div>
+        </a>
+
+        <a href="article/1first/chat.html">评论</a>&Tab;<a href="#">转发</a>
+      </article>
+    </section>
+
+
+
+    <section class="featured-post">
+      <article>
+        <h2>坤化危机简介</h2>
+        <a href="article/2second/word.html">
+          <div>
+            <h3>关于鸡病毒的强大</h3>
+          </div>
+        </a>
+
+        <a href="article/2second/chat.html">评论</a>&Tab;<a href="#">转发</a>
+      </article>
+    </section>
+
+
+
+
+
+  </main>
+  <footer>
+    <p>&copy; 七月半的博客</p>
+  </footer>
+  <script src="script.js"></script>
+</body>

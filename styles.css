@@ -1,0 +1,149 @@
+/* 重置默认的浏览器样式 */  
+* {  
+  box-sizing: border-box;  
+  margin: 0;  
+  padding: 0;  
+}  
+/* 取消下滑线 */
+ a{
+ text-decoration: none;
+ }
+
+  
+/* 基本样式 */  
+body {  
+  font-family: Arial, sans-serif;  
+  line-height: 1.6;  
+}  
+  
+header {  
+  background-color: #4CAF50;  
+  color: white;  
+  padding: 20px;  
+  text-align: center;  
+}  
+  
+nav ul {  
+  list-style: none;  
+  margin-top: 20px;  
+}  
+  
+nav li {  
+  display: inline;  
+  margin-right: 10px;  
+}  
+  
+nav a {  
+  color: white;  
+  text-decoration: none;  
+}  
+  
+main {  
+  padding: 20px;  
+}  
+  
+section {  
+  margin-bottom: 20px;  
+}  
+  
+h2 {  
+  color: #4CAF50;  
+}  
+  
+article {  
+  margin-bottom: 20px;  
+}  
+  
+footer {  
+  background-color: #4CAF50;  
+  color: white;  
+  text-align: center;  
+  padding: 10px;  
+}/* 基本样式 */  
+body {  
+  font-family: Arial, sans-serif;  
+  margin: 0;  
+  padding: 0;  
+}  
+  
+/* 头部样式 */  
+header {  
+  background-color: #4CAF50;  
+  color: white;  
+  padding: 10px;  
+}  
+  
+nav ul {  
+  list-style-type: none;  
+  margin: 0;  
+  padding: 0;  
+}  
+  
+nav li {  
+  display: inline;  
+  margin-right: 10px;  
+}  
+  
+nav a {  
+  color: white;  
+  text-decoration: none;  
+}  
+  
+/* 主要内容样式 */  
+main {  
+  padding: 20px;  
+}  
+  
+.featured-article {  
+  margin-bottom: 20px;  
+}  
+  
+.featured-article h2, .articles h2 {  
+  color: #4CAF50;  
+}  
+  
+article {  
+  border-bottom: 1px solid #ccc;  
+  margin-bottom: 20px;  
+  padding-bottom: 20px;  
+}  
+  
+/* 页脚样式 */  
+footer {  
+  background-color: #4CAF50;  
+  color: white;  
+  text-align: center;  
+  padding: 10px;  
+}
+div{
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 20px;
+  background-color:rgba(137, 141, 141, 0.267);
+  text-align: center;
+  height:100px;border:1px solid #000;
+}
+body{
+  text-align: center;
+}
+select{
+ border:0px solid  #4CAF50;
+  color: white;
+	background-color:transparent;
+}
+#button01{
+  background-color: #4CAF50;  
+  color: white;  
+  padding: 10px; 
+}
+input{
+	border:0px solid #4CAF50;
+	background-color:transparent;
+}
+option{
+ 
+  border:0px solid  #4CAF50;
+  color: rgb(1, 242, 61);
+	
+}
